@@ -1,6 +1,6 @@
 speech-to-text: whisper openai
 natural language understanding / response generation: deepseek? rag / dialogflow
-text-to-speech: coqui tts (train your own voice) or google wavenet
+text-to-speech: coqui tts (train your own voice) or google wavenet ✅
 real-time audio streaming: WebRTC / Twilio Voice API
 
 Pipeline: STT -> NLU -> Response Generation -> TTS -> Audio Streaming
