@@ -1,3 +1,4 @@
-audio_files/*
+audio_input/*
+audio_output/*
 .env
 todo.txt

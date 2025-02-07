@@ -25,8 +25,8 @@ tts = TTS("tts_models/multilingual/multi-dataset/xtts_v2").to(device)
 text_to_speak = input("Enter the text you want to convert to speech: ")
 
 # Run TTS with user input
-wav = tts.tts(text=text_to_speak, speaker_wav="../audio_files/harvard.wav", language="en")
-tts.tts_to_file(text=text_to_speak, speaker_wav="../audio_files/harvard.wav", language="en", file_path="output.wav")
+wav = tts.tts(text=text_to_speak, speaker_wav="../audio_input/harvard.wav", language="en")
+tts.tts_to_file(text=text_to_speak, speaker_wav="../audio_input/harvard.wav", language="en", file_path="../audio_output/output.wav")
 
 # Optional: Play the audio directly (requires sounddevice library)
 
