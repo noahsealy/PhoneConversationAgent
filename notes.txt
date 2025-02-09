@@ -33,3 +33,21 @@ to get out of vm:
 deactivate
 exit
 ```
+
+to reinstall dependencies: 
+```
+# First deactivate if you're in it
+deactivate
+
+# Remove old environment
+rm -rf .venv
+
+# Create new environment with specific Python version
+python3 -m venv .venv
+
+# Activate again
+source .venv/bin/activate
+
+# Reinstall dependencies
+pip install -r requirements.txt
+```
