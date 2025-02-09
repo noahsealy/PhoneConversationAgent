@@ -10,3 +10,15 @@ Record sentences that cover a broad range of phonemes (e.g., common phrases, que
 Use datasets like LibriSpeech as inspiration for phoneme-rich sentences.
 
 Would be nice to anonymize the input data.
+
+
+
+to activate vm: 
+```
+source phone_agent/bin/activate
+```
+to get out of vm: 
+```
+deactivate
+exit
+```
