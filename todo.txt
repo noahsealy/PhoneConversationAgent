@@ -17,6 +17,17 @@ to activate vm:
 ```
 source phone_agent/bin/activate
 ```
+
+to check pip packages: 
+```
+pip list
+```
+
+to check if vm is activated: 
+```
+echo $VIRTUAL_ENV
+```
+
 to get out of vm: 
 ```
 deactivate
